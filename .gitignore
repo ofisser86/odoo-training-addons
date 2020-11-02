@@ -1,3 +1,7 @@
+*.pyc
+modified:   openacademy/models/__pycache__/__init__.cpython-38.pyc
+modified:   openacademy/models/__pycache__/models.cpython-38.pyc
+
 account/
 account_check_printing/
 account_debit_note/
