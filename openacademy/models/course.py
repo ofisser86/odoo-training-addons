@@ -5,7 +5,7 @@ class Course(models.Model):
     _name = 'openacademy.course'
     _description = 'Openacademy Course'
 
-    name = fields.Char(string='Course', required=True)
+    name = fields.Char(string='Course title', required=True, help="Course name")
     description = fields.Text()
     responsible_id = fields.Many2one('openacademy.partner', string='Partner Reference')
     session_ids = fields.One2many('openacademy.session', inverse_name='course_id', string='Session Reference')
