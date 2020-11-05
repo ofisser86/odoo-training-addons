@@ -1,7 +1,30 @@
 *.pyc
-modified:   openacademy/models/__pycache__/__init__.cpython-38.pyc
-modified:   openacademy/models/__pycache__/models.cpython-38.pyc
+openacademy/models/__pycache__/__init__.cpython-38.pyc
+openacademy/models/__pycache__/models.cpython-38.pyc
+library/__pycache__/__init__.cpython-38.pyc
 
+
+account_analytic_default/
+account_analytic_default_hr_expense/
+account_analytic_default_purchase/
+account_bank_statement_import/
+account_facturx/
+base_gengo/
+hr_expense_check/
+hr_holidays_calendar/
+hw_proxy/
+im_support/
+l10n_cn_small_business/
+l10n_cn_standard/
+partner_autocomplete_address_extended/
+pos_cash_rounding/
+pos_kitchen_printer/
+pos_reprint/
+theme_bootswatch/
+web_diagram/
+website_gengo/
+website_rating/
+website_theme_install/
 account/
 account_check_printing/
 account_debit_note/

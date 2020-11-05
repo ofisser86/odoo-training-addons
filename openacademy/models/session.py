@@ -12,5 +12,6 @@ class Session(models.Model):
     duration = fields.Float(string="Duration", default=1.0, help="Duration in days")
     instructor_id = fields.Many2one(comodel_name='openacademy.partner')
     course_id = fields.Many2one(comodel_name='openacademy.course',  ondelete="cascade", string="Course", required=True)
-    attendee_ids = fields.Many2many('openacademy.partner')
+    attendee_ids = fields.Many2many('res.partner', string="Attendees")
     active = fields.Boolean(default=True)
+    seats = fields.Integer(string="Number of seats")
